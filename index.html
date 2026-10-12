@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#120a06" />
+    <title>The Street Game · Bolas, canicas, metras…</title>
+    <meta name="description" content="The marbles game every Latino kid played on the street, rebuilt in 3D. Play against Claude until your mom calls you home." />
+    <link rel="icon" type="image/png" href="./favicon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://street-game.centro-datos-crudo.workers.dev/" />
+    <meta property="og:title" content="The Street Game · Bolas, canicas, metras…" />
+    <meta property="og:description" content="The marbles game every Latino kid played on the street, rebuilt in 3D. Play against Claude until your mom calls you home." />
+    <meta property="og:image" content="https://street-game.centro-datos-crudo.workers.dev/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@IAenCrudo" />
+    <meta name="twitter:image" content="https://street-game.centro-datos-crudo.workers.dev/og.jpg" />
+    <script type="module" crossorigin src="./assets/index-HDif5lFa.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BM9TqdBo.css">
+  </head>
+  <body>
+    <div id="juego">
+      <canvas id="lienzo"></canvas>
+      <div id="auto"><img src="./assets/carro-C04VNCdo.png" alt="" /><div class="faro i"></div><div class="faro d"></div></div>
+      <img id="mano" class="mano oculta" src="./assets/mano-NEGbzcxz.png" alt="" />
+      <img id="mano-tira" class="mano" src="./arte/mano_tira.png" alt="" />
+      <div id="manos"></div>
+      <svg id="arco" viewBox="0 0 130 40"><path d="M5 38 Q65 -14 125 38" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="5" stroke-linecap="round" />
+        <path class="lleno" pathLength="100" d="M5 38 Q65 -14 125 38" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" /></svg>
+      <div id="hud">
+        <div id="marcador" class="pastilla"><span class="yo">YOU</span><span class="n"><span id="m-tu">0</span> - <span id="m-claude">0</span></span><span class="cl">CLAUDE</span></div>
+        <div id="nombre" class="pastilla"><span id="h-bandera"></span><b id="h-palabra">BOLAS</b></div>
+        <div id="sol" class="pastilla">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5" fill="#ffc93c"/><g stroke="#ffc93c" stroke-width="2" stroke-linecap="round"><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.6 4.6l2.1 2.1M17.3 17.3l2.1 2.1M4.6 19.4l2.1-2.1M17.3 6.7l2.1-2.1"/></g></svg>
+          <div class="barra"><div id="sol-barra"></div></div>
+          <svg viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z" fill="#9cc4ff"/></svg>
+        </div>
+      </div>
+      <div id="chip"></div>
+      <div id="fuera"><div class="t titulo-juego">¡FUERA!</div><div class="mas">+1</div></div>
+      <div id="pista">drag back anywhere and release
+        <svg viewBox="0 0 90 40"><path d="M40 12 H6" stroke="#fff" stroke-width="2.6" stroke-dasharray="2 5" stroke-linecap="round"/><path d="M12 6 L5 12 L12 18" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+          <path d="M58 10 v14 l-4 -3 q-3 -2 -4 1 l8 10 h14 q4 -6 3 -14 v-4 q0 -3 -3 -3 q-2 0 -2 2 v-2 q0 -3 -3 -3 q-2 0 -2 2 v-1 q0 -3 -3 -3 q-2 0 -2 2 v-6 q0 -3 -3 -3 t-3 3z" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/></svg></div>
+      <div id="carro">
+        <div class="aviso"><div class="grande">¡CARRO!</div><div class="sub">CAR! Grab your marbles!</div><div id="cuenta">3</div></div>
+        <div class="pista2">tap the marbles 👆</div>
+      </div>
+      <div id="inicio" class="capa">
+        <div class="titulo-juego">THE STREET GAME</div>
+        <div class="pregunta">What did you call them?</div>
+        <div id="paises">
+          <button data-pais="cuba"><span class="ban"></span>BOLAS</button>
+          <button data-pais="mexico"><span class="ban"></span>CANICAS</button>
+          <button data-pais="venezuela"><span class="ban"></span>METRAS</button>
+          <button data-pais="argentina"><span class="ban"></span>BOLITAS</button>
+          <button data-pais="salvador"><span class="ban"></span>CHIBOLAS</button>
+          <button data-pais="costarica"><span class="ban"></span>BOLINCHAS</button>
+          <button data-pais="usa"><span class="ban"></span>MARBLES</button>
+        </div>
+        <div id="nombre-caja"><label for="nombre-campo">Your name (mom will call you)</label><input id="nombre-campo" maxlength="12" autocomplete="off" placeholder="MIJO" /></div>
+        <button id="b-jugar">PLAY</button>
+        <div class="creditos">vs Claude · until your mom calls you home 🏠 · made by Claude Opus 5.5</div>
+      </div>
+      <div id="mama">
+        <video id="mama-video" src="./arte/mama_es.mp4" poster="./arte/mama.jpg" muted playsinline preload="auto"></video>
+        <div id="globo"><div id="grito-nombre"></div><div id="grito-frase"></div><div id="grito-en"></div></div>
+        <div id="final">
+          <div class="titulo-juego">GAME OVER</div>
+          <div id="f-marcador"></div>
+          <div id="f-veredicto"></div>
+          <div class="botones"><button id="b-otra">PLAY AGAIN</button><button id="b-x">SHARE ON 𝕏</button><button id="b-imagen">SAVE CARD</button></div>
+          <button id="b-pais">change country / name</button>
+        </div>
+      </div>
+      <div id="destello"></div>
+      <div id="firma">@IAenCrudo</div>
+      <div id="carga">loading the barrio…</div>
+    </div>
+  </body>
+</html>

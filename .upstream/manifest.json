@@ -1,0 +1,218 @@
+{
+  "generated": "2026-10-12T19:22:16.419Z",
+  "origin": "https://street-game.centro-datos-crudo.workers.dev",
+  "files": {
+    "arte/fondo_cuba.jpg": {
+      "bytes": 1073668,
+      "sha256": "e246c4c625c53994c4df1d3f4dd1a5c9dcb9eb8b9685f79066ad31efbee35b97"
+    },
+    "arte/fondo_mexico.jpg": {
+      "bytes": 1107243,
+      "sha256": "90146a7507302e3eab4f65949c9c53b4a44da8175b3d81e6b7645f8e3c41035b"
+    },
+    "arte/fondo_neutro.jpg": {
+      "bytes": 1062470,
+      "sha256": "515fc112f1dcbdd92ea33ca52c331fcfe5adbb137eec78f89bd07c5f83633268"
+    },
+    "arte/mama.jpg": {
+      "bytes": 888153,
+      "sha256": "f9e53dfa7c8ba37089b6a55f2b16db14b09324943b137d335961733f893557d9"
+    },
+    "arte/mama_en.mp4": {
+      "bytes": 3529717,
+      "sha256": "edf5aebd584ffdbdf6d71ff6d6c03d88bfdfebdd73bd2aab10ae76e22696145c"
+    },
+    "arte/mama_es.mp4": {
+      "bytes": 2887194,
+      "sha256": "550dfc45112158ae9ab7367e32e3b9e481766069157adfc3a5ad4020fb7c49f4"
+    },
+    "arte/mano_abierta_d.png": {
+      "bytes": 222158,
+      "sha256": "87b6dd325e22764eec884ed6e3bf7e6d6c68734fa003bc7f181e1311aca66515"
+    },
+    "arte/mano_abierta_i.png": {
+      "bytes": 245829,
+      "sha256": "07d382c7f86ea2f3a61698d5396f671571a0523c7c5ab046578118a3980d80e8"
+    },
+    "arte/mano_cerrada_d.png": {
+      "bytes": 211331,
+      "sha256": "897f455ba0f0364343b3977ead7c7fa37c42e249a0dcb3d3093dbc9584bef5ad"
+    },
+    "arte/mano_cerrada_i.png": {
+      "bytes": 202999,
+      "sha256": "3f0ec9054d7570982e47289aca92ff4137caaa9216498b85ee247da76bac1dcc"
+    },
+    "arte/mano_tira.png": {
+      "bytes": 686699,
+      "sha256": "ac73f6a036d56c265c7c7dd993c2f55162774416cd6e511b92aa48bf297b68d2"
+    },
+    "arte/nino.png": {
+      "bytes": 271694,
+      "sha256": "3134dcbc9cbb45b333881ff19769f1a280139b4d5f8b78a1fcf1560cfa9e1ea2"
+    },
+    "arte/voz_mama_en.mp3": {
+      "bytes": 77228,
+      "sha256": "fab29b58ac78ac98bec8bd19183a03d92309d2ae84f7f6efe3ab27c6e7db422b"
+    },
+    "arte/voz_mama_es.mp3": {
+      "bytes": 82220,
+      "sha256": "a0d2799ecdbc543db376d3e81df26ec15e30f7a910c963ec0b28e4a3ac2da068"
+    },
+    "assets/carro-C04VNCdo.png": {
+      "bytes": 233376,
+      "sha256": "f82824f81b39c28ea9b730670251647129d480bb34ddc49c68480db7c9c44e8c"
+    },
+    "assets/index-BM9TqdBo.css": {
+      "bytes": 13737,
+      "sha256": "e46a88027b19483125d56ec1bce3914a5066ce45b6d0d4ae69e216a5e20a8e0c"
+    },
+    "assets/index-HDif5lFa.js": {
+      "bytes": 585381,
+      "sha256": "9c36cce1114cd6eda75f6c9099a2aa3ef73a2716d9b8ccac661eb60cd7f88999"
+    },
+    "assets/inter-cyrillic-600-normal-4D_pXhcN.woff": {
+      "bytes": 9936,
+      "sha256": "cc190ed1b64eb650a4ad7e97c7a668cb8b34acd9c4c7f7bf4372c0cbacd35795"
+    },
+    "assets/inter-cyrillic-600-normal-CWCymEST.woff2": {
+      "bytes": 7972,
+      "sha256": "6c2a37f82a676bcd441b735e4e2cda4edb8873a059ab9c362a84f0711f257041"
+    },
+    "assets/inter-cyrillic-800-normal-C7MGvYyJ.woff2": {
+      "bytes": 7992,
+      "sha256": "e84cb164b47aaad63db12da876c341c59f78b6b25f9069dcdea3c1f8ca8b8f9b"
+    },
+    "assets/inter-cyrillic-800-normal-CCHyn08d.woff": {
+      "bytes": 9944,
+      "sha256": "5d3dc126873486c5a8449a14823c613de707c7ee8b1df23a9e34e76116167627"
+    },
+    "assets/inter-cyrillic-ext-600-normal-Bcila6Z-.woff": {
+      "bytes": 13464,
+      "sha256": "a5073285409443f4653c858de58c5dc0bfc2fd33e60d8747388345e7c5ab1ab3"
+    },
+    "assets/inter-cyrillic-ext-600-normal-Dfes3d0z.woff2": {
+      "bytes": 10484,
+      "sha256": "509fca9c59564f9a846fa69bc647f9b050fc11abf1c9f6f3da71fb2d5ed425bd"
+    },
+    "assets/inter-cyrillic-ext-800-normal-BZOjs1Xv.woff2": {
+      "bytes": 10440,
+      "sha256": "5c3f504d068a53469514175401cb3fe4d210231f44df0ef15d3da5f32d9ff445"
+    },
+    "assets/inter-cyrillic-ext-800-normal-Ca-gJeZY.woff": {
+      "bytes": 13476,
+      "sha256": "e87b63bf58fb0490d6a456d44cfdf58d496364f1fe8213a06787ef3cdad25fe8"
+    },
+    "assets/inter-greek-600-normal-BZpKdvQh.woff": {
+      "bytes": 10032,
+      "sha256": "090b24e22fc4ddf41450d13bdec81c8a74808b9fc7edaf8df06c909b177a8992"
+    },
+    "assets/inter-greek-600-normal-plRanbMR.woff2": {
+      "bytes": 7944,
+      "sha256": "9c5a897f9d9fcfe60d90631d766ae62b4bf1edd76633fa7a4b2f8c87e036789b"
+    },
+    "assets/inter-greek-800-normal-BU00tryP.woff": {
+      "bytes": 9964,
+      "sha256": "67c23188c195ef3f04f4d0552a898f268a63d377924db280693f267679fc9dab"
+    },
+    "assets/inter-greek-800-normal-CLIouy3y.woff2": {
+      "bytes": 7892,
+      "sha256": "18a6a4a8e29310db74c01b9d85b30e708e0b1fd8d9a2d01a259b82fe4d112422"
+    },
+    "assets/inter-greek-ext-600-normal-B8X0CLgF.woff": {
+      "bytes": 7212,
+      "sha256": "efc7aa9cce5c505dd8cc4c4daf00247fa805f37bcda96079239ba3358ab27dfb"
+    },
+    "assets/inter-greek-ext-600-normal-DRtmH8MT.woff2": {
+      "bytes": 5432,
+      "sha256": "399f94d75aa73403e40e2353e8c0cc75c38f7362a6ca263b3b02d9723157ffe5"
+    },
+    "assets/inter-greek-ext-800-normal-B--PVpEC.woff2": {
+      "bytes": 5548,
+      "sha256": "33bc91a610e159df66b874231f4c8f0037ac947fdd1b270cc60a7ee658a2c21f"
+    },
+    "assets/inter-greek-ext-800-normal-DUe57HfS.woff": {
+      "bytes": 7204,
+      "sha256": "75c98d8d562061bb76f3936cf1b48246d217209497264113742e8dbbc9198af1"
+    },
+    "assets/inter-latin-600-normal-CiBQ2DWP.woff": {
+      "bytes": 31260,
+      "sha256": "6a9cb3a509b4eeaf12b7dda6c4aacac3e85d07f4201bf4dd716e332e692b87bd"
+    },
+    "assets/inter-latin-600-normal-LgqL8muc.woff2": {
+      "bytes": 24452,
+      "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+    },
+    "assets/inter-latin-800-normal-BYj_oED-.woff2": {
+      "bytes": 24400,
+      "sha256": "a7d0a50f15d389cad679238466bdb5fc9787aa0715719064ce25abaff042820d"
+    },
+    "assets/inter-latin-800-normal-D1mf63XC.woff": {
+      "bytes": 31296,
+      "sha256": "a2fdc5be8acd75fe8f3fd9de8179828d04fd884c155cd6b63fec23b33651ec88"
+    },
+    "assets/inter-latin-ext-600-normal-CIVaiw4L.woff": {
+      "bytes": 48668,
+      "sha256": "22ff20a6170674fb9637c2a072227be86303bb6ec52b829b9d7077405f7196a6"
+    },
+    "assets/inter-latin-ext-600-normal-D2bJ5OIk.woff2": {
+      "bytes": 36260,
+      "sha256": "e4bdf67b0cd15ca9e184509275be95db942195d3cc2b17f6a0452f2adf75d0bf"
+    },
+    "assets/inter-latin-ext-800-normal-BOMpwxm3.woff": {
+      "bytes": 48592,
+      "sha256": "40c8e1bb3d3723f1c2fdb3be722cc42c03afaa4317935cdab9cf520cdf5a6ce8"
+    },
+    "assets/inter-latin-ext-800-normal-DZJjya6U.woff2": {
+      "bytes": 36128,
+      "sha256": "eade55593308b9e4916dd7f47826929ce3e40cad85a2b338d56e5fd1e7bf8e5e"
+    },
+    "assets/inter-vietnamese-600-normal-BuLX-rYi.woff": {
+      "bytes": 6640,
+      "sha256": "24a01e7bd947aeef91ae8f7b8edeb23fadaf5ceda34a610ce62d2bbdaea57e83"
+    },
+    "assets/inter-vietnamese-600-normal-Cc8MFFhd.woff2": {
+      "bytes": 5100,
+      "sha256": "1aeb94ae9db052a4a2fe6f3046f928cff1fdbd7abdf870a9a01c13cae6faeba5"
+    },
+    "assets/inter-vietnamese-800-normal-Cm7tD1pz.woff2": {
+      "bytes": 5176,
+      "sha256": "37852ffd38e1064bd06a0b95aed12cbb4f248c6f0b5ffcf9c1a4ffc40500b22c"
+    },
+    "assets/inter-vietnamese-800-normal-DDlpr_Ee.woff": {
+      "bytes": 6644,
+      "sha256": "46ce148ad9022e973f68e3e69442d950a30c58285c57d81caa813424a4e9a38d"
+    },
+    "assets/lilita-one-latin-400-normal-87r-Z-Re.woff2": {
+      "bytes": 10672,
+      "sha256": "d2575d4fa3632580aafcbcdf6978b3b57e144b90cf5bd9c2c98194f28b869704"
+    },
+    "assets/lilita-one-latin-400-normal-DXkechA3.woff": {
+      "bytes": 13520,
+      "sha256": "029b74f2487e0daee58a161103173c0deec879d0b6375cc536c03cbaab46d11b"
+    },
+    "assets/lilita-one-latin-ext-400-normal-DxX3B4s6.woff2": {
+      "bytes": 1384,
+      "sha256": "f40903e46b04b3f1f423fd1416e89c17fddaf4c75afc6cb4b2f83c5a487a6db1"
+    },
+    "assets/lilita-one-latin-ext-400-normal-QROd2hfm.woff": {
+      "bytes": 1896,
+      "sha256": "06ca6ee31db44e5b1c4e1dcdd656dd4e3a573b7e06b9be2d4493f4ded4857f58"
+    },
+    "assets/mano-NEGbzcxz.png": {
+      "bytes": 637414,
+      "sha256": "36223dfb2fe8bc32c317836a6fa91885c181e5959b213b26f8f902cca074adf2"
+    },
+    "favicon.png": {
+      "bytes": 7786,
+      "sha256": "ded598565be68840bbe2919b62060ad0da787e5da1a74d6e2fede189670b94af"
+    },
+    "index.html": {
+      "bytes": 5945,
+      "sha256": "d44da3601711da4b80379e9c65a899f8e7b42ef8145391c185a10dbc2791d042"
+    },
+    "og.jpg": {
+      "bytes": 132212,
+      "sha256": "0f881d313db055df3696ac972efe36cebf52aadf133442c599fd481ac9fb5883"
+    }
+  }
+}
