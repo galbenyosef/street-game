@@ -51,6 +51,8 @@ away on the SHARE button, not a dependency).
 - `tools/verify.mjs` — re-hash the capture against the manifest
 - `tools/update.mjs` — read-only drift probe against the live origin
 - `tools/audit.js` — integrity gate for the derived layers (`AUDIT PASS`)
+- `tools/serve.mjs` — dependency-free loopback static server for boot tests
+  (`node tools/serve.mjs <port> [root]`)
 
 ## Assets
 
@@ -83,6 +85,18 @@ node tools/audit.js          # derived-layer integrity gate → AUDIT PASS
 node tools/capture.mjs --check   # residual closure audit → 0 unresolved
 node tools/check-exports.mjs     # the derived layer still exports every public name
 ```
+
+## Boot test (2026-10-27)
+
+- Entry: `http://127.0.0.1:4969/` served by `tools/serve.mjs` with the network
+  blocked (`MAP * 127.0.0.1`).
+- Outcome: **rendered** — the country menu appeared over the Cuba barrio 3D
+  scene; BOLAS + PLAY started a round with the marbles playfield, the hand and
+  the HUD (YOU 0 - 0 CLAUDE).
+- Evidence: body 395 chars (193 during gameplay); canvas 319x568; 0 console
+  errors; 0 failed same-origin requests, 0 blocked cross-origin; screenshot
+  `docs/boot-2026-10-27.png`.
+- Gaps seen: none.
 
 ## Updating from upstream
 
